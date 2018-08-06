@@ -12,7 +12,7 @@ namespace JanKenPon.Signal.Scissors
 
         public ScissorsSignal()
         {
-            this.Name = "Scissors";
+            this.Name = "S";
             this.LosesTo = new[] { SignalAttributes.Crushes };
             this.Do = new[] { SignalAttributes.Cuts };
         }

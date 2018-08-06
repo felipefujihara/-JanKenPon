@@ -12,7 +12,7 @@ namespace JanKenPon.Signal.Rock
 
         public RockSignal()
         {
-            this.Name = "Rock";
+            this.Name = "R";
             this.LosesTo = new[] { SignalAttributes.Covers };
             this.Do = new[] { SignalAttributes.Crushes };
         }

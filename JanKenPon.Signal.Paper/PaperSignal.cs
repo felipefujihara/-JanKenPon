@@ -12,7 +12,7 @@ namespace JanKenPon.Signal.Paper
 
         public PaperSignal()
         {
-            this.Name = "Paper";
+            this.Name = "P";
             this.LosesTo = new[] { SignalAttributes.Cuts };
             this.Do = new[] { SignalAttributes.Covers };
         }
