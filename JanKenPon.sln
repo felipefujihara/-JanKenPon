@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanKenPon.ConsoleApp", "JanKenPon.ConsoleApp\JanKenPon.ConsoleApp.csproj", "{DAE804C8-3DDD-43F3-BF3C-2D8BD84D89DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Data", "0 - Data", "{88ADDB06-39F1-4B9C-B194-CC5CA14F30E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{1F9FB906-6ADE-4F90-AE69-E52B7A59A278}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services Interfaces", "2 - Services Interfaces", "{4FCE8995-34FB-42EC-90BD-03AF1192D496}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{D3A20CB5-BC54-4A0C-8DF5-D8A00BAFA709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{36729641-D17E-49CF-A769-21C8478BCF5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - User Interface", "5 - User Interface", "{2400B814-AE81-4D02-A02F-AACFFFD610CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanKenPon.MatchMaker", "JanKenPon.MatchMaker\JanKenPon.MatchMaker.csproj", "{25BF6052-D7C1-4772-B17A-016EA0E508B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanKenPon.Common", "JanKenPon.Common\JanKenPon.Common.csproj", "{C0664ABC-1C9B-44BA-AD25-CA927BA0A7D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanKenPon.Signal.Rock", "JanKenPon.Signal.Rock\JanKenPon.Signal.Rock.csproj", "{B92621E5-6A1D-476B-93B1-E1B236991401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanKenPon.Signal.Paper", "JanKenPon.Signal.Paper\JanKenPon.Signal.Paper.csproj", "{34B6E208-5C5C-414E-A22B-4761F2A734E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanKenPon.Signal.Scissors", "JanKenPon.Signal.Scissors\JanKenPon.Signal.Scissors.csproj", "{F12D46F8-7219-420A-B815-99F790A4CA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanKenPon.AssemblyLoaders", "JanKenPon.AssemblyLoaders\JanKenPon.AssemblyLoaders.csproj", "{21B81918-130C-4E0E-8C06-5E76EBBFE0E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE804C8-3DDD-43F3-BF3C-2D8BD84D89DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE804C8-3DDD-43F3-BF3C-2D8BD84D89DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE804C8-3DDD-43F3-BF3C-2D8BD84D89DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE804C8-3DDD-43F3-BF3C-2D8BD84D89DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BF6052-D7C1-4772-B17A-016EA0E508B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BF6052-D7C1-4772-B17A-016EA0E508B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BF6052-D7C1-4772-B17A-016EA0E508B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BF6052-D7C1-4772-B17A-016EA0E508B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0664ABC-1C9B-44BA-AD25-CA927BA0A7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0664ABC-1C9B-44BA-AD25-CA927BA0A7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0664ABC-1C9B-44BA-AD25-CA927BA0A7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0664ABC-1C9B-44BA-AD25-CA927BA0A7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92621E5-6A1D-476B-93B1-E1B236991401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92621E5-6A1D-476B-93B1-E1B236991401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92621E5-6A1D-476B-93B1-E1B236991401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92621E5-6A1D-476B-93B1-E1B236991401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B6E208-5C5C-414E-A22B-4761F2A734E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B6E208-5C5C-414E-A22B-4761F2A734E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B6E208-5C5C-414E-A22B-4761F2A734E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B6E208-5C5C-414E-A22B-4761F2A734E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12D46F8-7219-420A-B815-99F790A4CA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12D46F8-7219-420A-B815-99F790A4CA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12D46F8-7219-420A-B815-99F790A4CA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12D46F8-7219-420A-B815-99F790A4CA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B81918-130C-4E0E-8C06-5E76EBBFE0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B81918-130C-4E0E-8C06-5E76EBBFE0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B81918-130C-4E0E-8C06-5E76EBBFE0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B81918-130C-4E0E-8C06-5E76EBBFE0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAE804C8-3DDD-43F3-BF3C-2D8BD84D89DC} = {2400B814-AE81-4D02-A02F-AACFFFD610CE}
+		{25BF6052-D7C1-4772-B17A-016EA0E508B7} = {D3A20CB5-BC54-4A0C-8DF5-D8A00BAFA709}
+		{C0664ABC-1C9B-44BA-AD25-CA927BA0A7D1} = {1F9FB906-6ADE-4F90-AE69-E52B7A59A278}
+		{B92621E5-6A1D-476B-93B1-E1B236991401} = {1F9FB906-6ADE-4F90-AE69-E52B7A59A278}
+		{34B6E208-5C5C-414E-A22B-4761F2A734E1} = {1F9FB906-6ADE-4F90-AE69-E52B7A59A278}
+		{F12D46F8-7219-420A-B815-99F790A4CA2E} = {1F9FB906-6ADE-4F90-AE69-E52B7A59A278}
+		{21B81918-130C-4E0E-8C06-5E76EBBFE0E3} = {36729641-D17E-49CF-A769-21C8478BCF5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {827D35D7-A475-435B-AD45-C2203830E4E4}
+	EndGlobalSection
+EndGlobal
